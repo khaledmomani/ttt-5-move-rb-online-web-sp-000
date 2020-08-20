@@ -7,6 +7,6 @@ board= [1,2,3,4,5,6,7,8,9]
 puts display_board(board)
 puts "Where would you like to go?"
 user_input = get.line
-number = user_input
-puts index_to_input(number)
+number = user_input - 1
+board = number
 puts display_board (board)
