@@ -6,6 +6,6 @@ puts "Welcome to Tic Tac Toe!"
 board= [1,2,3,4,5,6,7,8,9]
 puts display_board(board)
 puts "Where would you like to go?"
-number= get.line
+number= get.line - 1
 puts index_to_input(number, board)
 puts display_board (board)
