@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def user_input(input)
-  puts input = get.line
+  puts input = get.strip
 def input_to_index(number = [1,2,3,4,5,6,7,8,9])
   number.to_i
 end
