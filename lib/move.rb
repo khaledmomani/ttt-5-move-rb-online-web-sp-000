@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(number, board)
-  puts board= number.to_i
-  puts "#{display_board}"
+  puts number.to_i
+  puts ""
   
 end
   
