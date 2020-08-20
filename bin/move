@@ -11,3 +11,4 @@ index = input_to_index(user_input)
 current_player = "X"
 move(board, index, current_player)
 display_board(board)
+current_player = "O"
