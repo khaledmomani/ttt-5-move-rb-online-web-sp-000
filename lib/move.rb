@@ -13,7 +13,7 @@ end
 
 
 def move(board)
-  def update_array_at_with(array, index, value)
+  def update_array_at_with(board, index, current_player)
     array[index] = value
   end
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
