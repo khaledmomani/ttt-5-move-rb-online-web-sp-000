@@ -15,6 +15,7 @@ end
 def move(X, O, board)
   def update_array_at_with(array, index, value)
     array[index] = value
+  end
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
