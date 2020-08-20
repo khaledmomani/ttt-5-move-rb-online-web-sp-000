@@ -8,6 +8,6 @@ end
 
 def input_to_index(number)
   number.to_i
-  puts number - 1
+  puts #{number}- 1
 end
   
