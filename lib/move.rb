@@ -13,6 +13,6 @@ end
 
 
 def move(board, index, current_player)
-    array[index] = current_player
+    board[index] = current_player
   end
   
